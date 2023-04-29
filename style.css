@@ -1,0 +1,151 @@
+/* flex section */
+.first-image {
+    width: 300px;
+    height: 200px;
+
+}
+
+.second-image {
+    width: 300px;
+    height: 200px;
+}
+
+.third-image {
+    width: 300px;
+    height: 200px;
+
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 80px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.image-container .image {
+    position: relative;
+    max-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* grid photo gallery */
+ul li {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+}
+
+.grid-container {
+    position: relative;
+    padding: 10px;
+    margin: 0;
+}
+
+.grid-container ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+    grid-auto-flow: dense;
+    gap: 3px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.grid-container ul li {
+    position: relative;
+}
+
+.grid-container ul li:nth-child(1) {
+    grid-row: span 2;
+    grid-column: span 3;
+}
+
+.grid-container ul li:nth-child(2) {
+    grid-row: span 1;
+    grid-column: span 2;
+}
+
+.grid-container ul li:nth-child(3) {
+    grid-row: span 1;
+    grid-column: span 2;
+}
+
+.grid-container ul li:nth-child(4) {
+    grid-row: span 1;
+    grid-column: span 3;
+}
+
+.grid-container ul li:nth-child(5) {
+    grid-row: span 1;
+    grid-column: span 2;
+}
+
+.grid-container ul li:nth-child(6) {
+    grid-row: span 1;
+    grid-column: span 2;
+}
+
+.grid-container ul li:nth-child(7) {
+    grid-row: span 1;
+    grid-column: span 3;
+}
+
+.grid-container ul li:nth-child(8) {
+    grid-row: span 1;
+    grid-column: span 3;
+}
+
+.grid-container ul li:nth-child(9) {
+    grid-row: span 1;
+    grid-column: span 7;
+}
+
+.grid-container ul img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* bootstrap card */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.6s;
+    width: 85%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+/* main container */
+
+.main-container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+ul li {
+    list-style-type: none;
+
+}
+
+.col-md-3 ul {
+    padding-left: 0rem;
+}
